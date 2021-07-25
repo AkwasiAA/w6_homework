@@ -22,11 +22,11 @@ const createNewProductEntryItem = function (form) {
 
   const productName = document.createElement('h2');
   productName.textContent = form.product_name.value;
-  newProductEntryItem.appendChild(product_name);
+  newProductEntryItem.appendChild(productName);
 
   const prodDescription = document.createElement('h3');
   prodDescription.textContent = form.prod_description.value;
-  newProductEntryItem.appendChild(prod_description);
+  newProductEntryItem.appendChild(prodDescription);
 
   const quantity = document.createElement('h4');
   quantity.textContent = form.quantity.value;
@@ -34,11 +34,11 @@ const createNewProductEntryItem = function (form) {
 
   const purchasePrice = document.createElement('h4');
   purchasePrice.textContent = form.purchase_price.value;
-  newProductEntryItem.appendChild(purchase_price);
+  newProductEntryItem.appendChild(purchasePrice);
 
   const sellingPrice = document.createElement('h4');
   sellingPrice.textContent = form.selling_price.value;
-  newProductEntryItem.appendChild(selling_price);
+  newProductEntryItem.appendChild(sellingPrice);
 
   const supplier = document.createElement('p');
   supplier.textContent = form.supplier.value;
